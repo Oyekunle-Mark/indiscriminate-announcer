@@ -1,0 +1,15 @@
+.mapControls {
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 250px;
+  height: 20px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* #mapSuggestions {
+  background: rgb(0, 0, 0);
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 5px;
+} */
