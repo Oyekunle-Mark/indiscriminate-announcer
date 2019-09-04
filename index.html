@@ -12,8 +12,16 @@
 <body>
   <input id="mapSuggestions" class="mapControls" type="text" placeholder="Enter a location" />
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS9gBxgTFCGfgYGfK-ciKVrtZTLVC5dXY&libraries=places&callback=initMap" async
-    defer></script>
+  <ul id="geoData">
+    <li>Full Address: <span id="location-snap"></span></li>
+    <li>Latitude: <span id="lat-span"></span></li>
+    <li>Longitude: <span id="lon-span"></span></li>
+  </ul>
+
+  <script src="./index.js" async defer></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS9gBxgTFCGfgYGfK-ciKVrtZTLVC5dXY&libraries=places&callback=initMap"
+    async defer></script>
 
 </body>
 
