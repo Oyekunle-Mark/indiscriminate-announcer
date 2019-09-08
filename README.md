@@ -9,3 +9,7 @@ It also uses the user input to find:
 - Full address
 - Latitude
 - Longitude
+
+## Author
+
+Oyekunle Oloyede
